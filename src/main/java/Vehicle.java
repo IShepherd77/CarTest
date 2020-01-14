@@ -22,9 +22,9 @@ public class Vehicle {
     }
 
     public static void main(String[] args) {
-        Vehicle car = new Vehicle(4, 5, "grey", "SM67 VKS", 40000.00, "BMW");
+//        Vehicle car = new Vehicle(4, 5, "grey", "SM67 VKS", 40000.00, "BMW");
 
-        System.out.println(car.whichVehicle());
+//        System.out.println(car.whichVehicle());
     }
 
 }
