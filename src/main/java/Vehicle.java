@@ -15,4 +15,8 @@ public class Vehicle {
         this.valueOfVehicle = value;
     }
 
+    public String whichVehicle(){
+        return "Vroom, vroom, I am the vehicle";
+    }
+
 }
