@@ -21,6 +21,10 @@ public class Vehicle {
         return "Vroom, vroom, I am the vehicle";
     }
 
+    public String costOfVehicle(){
+        return "your car costs " + valueOfVehicle;
+    }
+
     public static void main(String[] args) {
 //        Vehicle car = new Vehicle(4, 5, "grey", "SM67 VKS", 40000.00, "BMW");
 
@@ -35,7 +39,7 @@ public class Vehicle {
 
         for (Vehicle vehicle : allTheVehicles){
             System.out.println(vehicle.whichVehicle());
-            System.out.println(vehicle.makeOfVehicle);
+            System.out.println(vehicle.costOfVehicle());
         }
 
 

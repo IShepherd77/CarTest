@@ -1,7 +1,7 @@
 class Fiat extends Vehicle {
 
     Fiat(){
-        super(4, 5, "grey", "SM67 VKS", 40000.00, "Punto");
+        super(4, 2, "grey", "GK04 WPD", 4000.00, "Punto");
     }
 
     @Override
