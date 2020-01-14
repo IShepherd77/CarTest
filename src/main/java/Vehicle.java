@@ -25,6 +25,21 @@ public class Vehicle {
 //        Vehicle car = new Vehicle(4, 5, "grey", "SM67 VKS", 40000.00, "BMW");
 
 //        System.out.println(car.whichVehicle());
+        Vehicle bmw, mercedes, fiat;
+
+        bmw = new BMW();
+        mercedes = new Mercedes();
+        fiat = new Fiat();
+
+        Vehicle[] allTheVehicles = {bmw, mercedes, fiat};
+
+        for (Vehicle vehicle : allTheVehicles){
+            System.out.println(vehicle.whichVehicle());
+            System.out.println(vehicle.makeOfVehicle);
+        }
+
+
+
     }
 
 }
