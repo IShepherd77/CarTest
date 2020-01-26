@@ -22,28 +22,26 @@ public class Vehicle {
     }
 
     public String costOfVehicle(){
-        return "your car costs " + valueOfVehicle;
+        return "your vehicle costs " + valueOfVehicle;
     }
 
     public static void main(String[] args) {
 //        Vehicle car = new Vehicle(4, 5, "grey", "SM67 VKS", 40000.00, "BMW");
 
 //        System.out.println(car.whichVehicle());
-        Vehicle bmw, mercedes, fiat;
+        Vehicle bmw, mercedes, fiat, motorbike;
 
         bmw = new BMW();
         mercedes = new Mercedes();
         fiat = new Fiat();
+        motorbike = new Motorbike();
 
-        Vehicle[] allTheVehicles = {bmw, mercedes, fiat};
+        Vehicle[] allTheVehicles = {bmw, mercedes, fiat, motorbike};
 
         for (Vehicle vehicle : allTheVehicles){
             System.out.println(vehicle.whichVehicle());
             System.out.println(vehicle.costOfVehicle());
+
         }
-
-
-
     }
-
 }
